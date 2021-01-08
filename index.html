@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="gb">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="Menu">
+        <li class="links">Personal Chatbot</li>
+        <li class="links">Apps</li>
+        <li class="links">Games</li>
+        <li class="links"> Made Chatbots</li>
+    </ul>
+    <div class="container">
+        <section>
+            <h1>Chat Bot</h1><iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/735bf4cc-68d2-4732-bf11-a801826a30a2">
+            </iframe>
+        </section>
+        <section id="apps">
+            <h1>Apps</h1>
+            <iframe width="375" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/ltUArPOPw_sorIZajOQNy-7dG2VNTxlEmyhwNZ8KJOg/embed"></iframe>
+            <iframe width="375" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/ZXRMC80Bvb5k9y7STv9RrCcP-8gYiLzRYuXWGMckMa0/embed"></iframe>
+        </section>
+        <section>
+            <h1>Games</h1>
+            <div id="my_carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <a href="https://studio.code.org/projects/playlab/7UJdHef2FCUlPuu5dD2631wjAXFLrC2WJimXk7z7BWg"><img src="Screenshot%202020-12-16%20at%203.42.50%20PM.png" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>This game is a city attack game with dragons.</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="https://studio.code.org/projects/dance/OSe5xhlE6kOjnp0qyjmfSyAGV94bSXIP9SseGNQdm94">
+                                <img src="Screenshot%202020-12-16%20at%203.45.31%20PM.png"></a>
+                            <div class="carousel-content">
+                                <p>This is a Dance party were characters do whatever they fell like.</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#my_carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#my_carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
